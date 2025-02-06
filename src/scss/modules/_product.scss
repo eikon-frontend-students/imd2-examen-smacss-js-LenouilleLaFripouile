@@ -1,0 +1,107 @@
+.product-text {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.product {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+}
+
+.product-image {
+  height: 269px;
+  align-self: stretch;
+}
+
+.product-title {
+  align-self: stretch;
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Francois One";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-info {
+  align-self: stretch;
+  color: var(--dark-blue, #005564);
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-description {
+  display: none;
+}
+
+.product-is-active-1 {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--red, #cf9697);
+  .product-description {
+    display: inline;
+    color: var(--dark-blue, #005564);
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+  }
+}
+
+.product-is-active-2 {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  .product-description {
+    display: inline;
+    color: var(--dark-blue, #005564);
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+  }
+}
+
+.product-is-active-3 {
+  display: flex;
+  width: 416px;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--light-blue, #c0d9d9);
+  .product-description {
+    display: inline;
+    color: var(--dark-blue, #005564);
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+  }
+}

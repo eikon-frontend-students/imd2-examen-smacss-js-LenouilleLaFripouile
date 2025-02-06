@@ -22,3 +22,14 @@ video {
   display: block;
   max-width: 100%;
 }
+
+.title {
+  color: var(--dark-blue, #005564);
+  font-family: "Francois One";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1296px;
+  flex-shrink: 0;
+}
